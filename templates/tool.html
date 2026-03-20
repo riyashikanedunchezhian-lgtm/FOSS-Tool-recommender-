@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Tool Recommender</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+
+<div class="card">
+    <h1>🔧 Tool Recommender</h1>
+
+    <select id="genre"></select>
+
+    <select id="difficulty">
+        <option>Beginner</option>
+        <option>Intermediate</option>
+        <option>Advanced</option>
+    </select>
+
+    <button onclick="getRecommendation()">Get Tool</button>
+
+    <div id="loading" class="loader hidden"></div>
+    <div id="result" class="result-card hidden"></div>
+</div>
+
+<script>
+async function loadGenres() {
+    const res = await fetch("/genres");
+    const data = await res.json();
+
+    const select = document.getElementById("genre");
+    select.innerHTML = "<option>Select Genre</option>";
+
+    data.genres.sort().forEach(g => {
+        let option = document.createElement("option");
+        option.value = g;
+        option.textContent = g;
+        select.appendChild(option);
+    });
+}
+
+async function getRecommendation() {
+
+    const genre = document.getElementById("genre").value;
+    const difficulty = document.getElementById("difficulty").value;
+
+    const loading = document.getElementById("loading");
+    const resultDiv = document.getElementById("result");
+
+    loading.classList.remove("hidden");
+    resultDiv.classList.add("hidden");
+
+    const res = await fetch("/recommend", {
+        method: "POST",
+        headers: {"Content-Type": "application/json"},
+        body: JSON.stringify({genre, difficulty})
+    });
+
+    const data = await res.json();
+
+    loading.classList.add("hidden");
+    resultDiv.classList.remove("hidden");
+
+    if (data.error) {
+        resultDiv.innerHTML = data.error;
+    } else {
+        resultDiv.innerHTML = `
+            <h3>${data.tool_name}</h3>
+            <p>${data.description}</p>
+            <a href="${data.website}" target="_blank">Visit</a>
+        `;
+    }
+}
+
+loadGenres();
+</script>
+
+</body>
+</html>
