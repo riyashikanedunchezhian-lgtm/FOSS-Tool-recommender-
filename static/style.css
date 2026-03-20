@@ -1,0 +1,211 @@
+/*  GLOBAL */
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(135deg, #4f46e5, #06b6d4, #22c55e);
+    background-size: 300% 300%;
+    animation: gradientMove 10s ease infinite;
+    color: #111827;
+}
+
+/*  Animated Background */
+@keyframes gradientMove {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+/* ================= LANDING PAGE ================= */
+
+.landing {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 20px;
+}
+
+/* Card */
+.landing-card {
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(20px);
+
+    width: 420px;
+    padding: 40px 30px;
+
+    border-radius: 20px;
+    text-align: center;
+
+    color: white;
+    box-shadow: 0 12px 40px rgba(0,0,0,0.3);
+
+    animation: fadeUp 1s ease;
+}
+
+/* Heading */
+.landing-card h1 {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+/* Tagline */
+.tagline {
+    font-size: 16px;
+    color: #e2e8f0;
+    margin-bottom: 15px;
+}
+
+/* Divider */
+.divider {
+    width: 60px;
+    height: 3px;
+    background: white;
+    margin: 15px auto;
+    border-radius: 10px;
+}
+
+/* Description */
+.description {
+    font-size: 14px;
+    line-height: 1.6;
+    color: #cbd5f5;
+    margin-bottom: 25px;
+}
+
+/* Button */
+.landing-card button {
+    padding: 12px 28px;
+
+    border: none;
+    border-radius: 10px;
+
+    background: white;
+    color: #4f46e5;
+
+    font-weight: bold;
+    cursor: pointer;
+
+    transition: 0.3s;
+}
+
+.landing-card button:hover {
+    transform: scale(1.05);
+    background: #f1f5f9;
+}
+
+/* ================= TOOL PAGE ================= */
+
+.card {
+    margin: 80px auto;
+    width: 350px;
+    padding: 30px;
+    border-radius: 20px;
+
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(25px);
+
+    text-align: center;
+    box-shadow: 0 10px 40px rgba(0,0,0,0.3);
+
+    animation: fadeUp 1s ease;
+}
+
+.card h1 {
+    margin-bottom: 20px;
+    color: white;
+}
+
+/* Inputs */
+select {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+
+    border-radius: 10px;
+    border: none;
+    outline: none;
+
+    font-size: 14px;
+}
+
+/* Button */
+button {
+    width: 100%;
+    padding: 12px;
+    margin-top: 15px;
+
+    border-radius: 10px;
+    border: none;
+
+    background: linear-gradient(135deg, #22c55e, #16a34a);
+    color: white;
+    font-weight: bold;
+
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    transform: scale(1.05);
+    background: linear-gradient(135deg, #16a34a, #15803d);
+}
+
+/* ================= RESULT ================= */
+
+.result-card {
+    margin-top: 20px;
+    padding: 15px;
+
+    border-radius: 15px;
+    background: rgba(255,255,255,0.9);
+
+    text-align: left;
+    animation: fadeUp 0.5s ease;
+}
+
+.result-card h3 {
+    margin: 0;
+}
+
+.result-card a {
+    color: #2563eb;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+/* ================= LOADER ================= */
+
+.loader {
+    margin: 15px auto;
+    width: 30px;
+    height: 30px;
+
+    border: 4px solid #ddd;
+    border-top: 4px solid #22c55e;
+
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    100% { transform: rotate(360deg); }
+}
+
+/* ================= ANIMATION ================= */
+
+@keyframes fadeUp {
+    from {
+        opacity: 0;
+        transform: translateY(25px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Utility */
+.hidden {
+    display: none;
+}
