@@ -67,45 +67,59 @@ The system uses a structured **decision-based recommendation model**:
 - Git & GitHub
 
 ---
-🚀 How to Run This Project
-📦 1. Clone the Repository
+### How to Run This Project
+## 1. Clone the Repository
+
+Use Git to download the project and move into the folder:
+
 git clone https://github.com/your-username/FOSS-Tool-recommender-.git
+
 cd FOSS-Tool-recommender-
-🧰 2. Install Required Libraries
+
+## 2. Install Required Libraries
+
+Install all the necessary Python dependencies:
+
 pip install -r requirements.txt
-▶️ 3. Run the Application
+
+## 3. Run the Application
+
+Start the complete system using a single command:
+
 python run.py
 
-👉 This single command will:
+This command will automatically:
 
 Start the backend server
 
-Ensure database connection
+Connect to the database
 
-Load data if needed
+Load data if required
 
-Launch the complete system
+## 4. Open in Browser
 
-🌐 4. Open in Browser
+After running the server, open your browser and go to:
+
 http://127.0.0.1:8000
-🧪 5. Use the Application
 
-Click Get Started
+### How to Use the Application
 
-Select:
+Click “Get Started” on the landing page
+
+Select your required:
 
 Genre
 
 Difficulty level
 
-Click Get Tool
+Click “Get Tool”
 
-View the recommended tool with description and link
+View the recommended tool with its description and official link
 
-⚠️ Requirements (Before Running)
+### Requirements
+
+Make sure the following are installed before running:
 
 Python 3.8 or higher
 
-MongoDB installed and running locally
-
-
+MongoDB running locally
