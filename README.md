@@ -4,11 +4,17 @@
 
 ## 🌍 Why This Project Exists (The Story)
 
-While working on different projects, we often faced a common problem — choosing the right tool. There are thousands of free and open-source tools available, but finding the one that matches both the task and the user’s skill level is confusing and time-consuming.
+As a student exploring different domains like coding, design, machine learning, and development, I often faced a recurring problem — choosing the right tool. Every time I started something new, I would spend hours searching online, comparing tools, reading blogs, and still feel unsure about what to pick.
 
-Beginners often pick tools that are too complex, while experienced users sometimes end up using tools that limit their capabilities. This gap between **user needs and tool selection** inspired me to build a system that can guide users intelligently.
+Sometimes the tools I chose were too advanced for me, and I ended up feeling stuck. Other times, I picked very basic tools that limited my learning and growth. This constant confusion made me realize that the real problem was not the lack of tools, but the lack of guided decision-making.
 
-FOSS Logic Engine was created to simplify this decision-making process by recommending the most suitable open-source tool based on what the user wants to do and how experienced they are.
+I noticed that many students like me face the same issue. We don’t need more tools — we need the right tool at the right time, based on our skill level and goal.
+
+That’s why I decided to build this project.
+
+Instead of solving a random problem, I chose this because it directly impacts how students learn, build, and grow. This system acts like a simple assistant that understands what a user wants to do and recommends the most suitable open-source tool.
+
+Through this project, I wanted to create something practical, scalable, and meaningful — a system that reduces confusion and helps people focus on learning and creating, rather than getting stuck at the starting point.
 
 ---
 
