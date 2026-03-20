@@ -1,0 +1,95 @@
+[
+  {"tool_name":"VS Codium","genre":"Coding","difficulty":"Beginner","description":"Open-source code editor","website":"https://vscodium.com"},
+  {"tool_name":"Geany","genre":"Coding","difficulty":"Intermediate","description":"Lightweight IDE","website":"https://geany.org"},
+  {"tool_name":"Neovim","genre":"Coding","difficulty":"Advanced","description":"Highly customizable editor","website":"https://neovim.io"},
+
+  {"tool_name":"Krita","genre":"Digital Painting","difficulty":"Beginner","description":"Painting software","website":"https://krita.org"},
+  {"tool_name":"MyPaint","genre":"Digital Painting","difficulty":"Intermediate","description":"Drawing tool","website":"https://mypaint.org"},
+
+  {"tool_name":"GIMP","genre":"Photo Editing","difficulty":"Beginner","description":"Image editing","website":"https://gimp.org"},
+  {"tool_name":"Darktable","genre":"Photo Editing","difficulty":"Advanced","description":"Photo workflow","website":"https://darktable.org"},
+
+  {"tool_name":"Inkscape","genre":"Vector Design","difficulty":"Beginner","description":"Vector graphics","website":"https://inkscape.org"},
+  {"tool_name":"Boxy SVG","genre":"Vector Design","difficulty":"Intermediate","description":"SVG editor","website":"https://boxy-svg.com"},
+
+  {"tool_name":"Shotcut","genre":"Video Editing","difficulty":"Beginner","description":"Video editor","website":"https://shotcut.org"},
+  {"tool_name":"Kdenlive","genre":"Video Editing","difficulty":"Advanced","description":"Pro video editor","website":"https://kdenlive.org"},
+
+  {"tool_name":"Audacity","genre":"Audio Editing","difficulty":"Beginner","description":"Audio editor","website":"https://audacityteam.org"},
+  {"tool_name":"Ardour","genre":"Audio Editing","difficulty":"Advanced","description":"Audio workstation","website":"https://ardour.org"},
+
+  {"tool_name":"OBS Studio","genre":"Streaming","difficulty":"Beginner","description":"Streaming software","website":"https://obsproject.com"},
+  {"tool_name":"Streamlabs OSS","genre":"Streaming","difficulty":"Intermediate","description":"Streaming platform","website":"https://streamlabs.com"},
+
+  {"tool_name":"LibreOffice Writer","genre":"Writing","difficulty":"Beginner","description":"Word processor","website":"https://libreoffice.org"},
+  {"tool_name":"LaTeX","genre":"Writing","difficulty":"Advanced","description":"Scientific writing","website":"https://latex-project.org"},
+
+  {"tool_name":"Joplin","genre":"Note Taking","difficulty":"Beginner","description":"Notes app","website":"https://joplinapp.org"},
+  {"tool_name":"Obsidian","genre":"Note Taking","difficulty":"Intermediate","description":"Knowledge notes","website":"https://obsidian.md"},
+
+  {"tool_name":"Zotero","genre":"Research","difficulty":"Intermediate","description":"Reference manager","website":"https://zotero.org"},
+  {"tool_name":"Mendeley OSS","genre":"Research","difficulty":"Advanced","description":"Research tool","website":"https://mendeley.com"},
+
+  {"tool_name":"MySQL","genre":"Database","difficulty":"Beginner","description":"SQL database","website":"https://mysql.com"},
+  {"tool_name":"PostgreSQL","genre":"Database","difficulty":"Advanced","description":"Advanced DB","website":"https://postgresql.org"},
+
+  {"tool_name":"MongoDB","genre":"NoSQL Database","difficulty":"Beginner","description":"Document DB","website":"https://mongodb.com"},
+  {"tool_name":"CouchDB","genre":"NoSQL Database","difficulty":"Advanced","description":"Distributed DB","website":"https://couchdb.apache.org"},
+
+  {"tool_name":"Redis","genre":"Caching","difficulty":"Intermediate","description":"In-memory store","website":"https://redis.io"},
+  {"tool_name":"Memcached","genre":"Caching","difficulty":"Advanced","description":"Cache system","website":"https://memcached.org"},
+
+  {"tool_name":"Pandas","genre":"Data Analysis","difficulty":"Beginner","description":"Data tool","website":"https://pandas.pydata.org"},
+  {"tool_name":"NumPy","genre":"Data Analysis","difficulty":"Intermediate","description":"Numerical computing","website":"https://numpy.org"},
+
+  {"tool_name":"Matplotlib","genre":"Data Visualization","difficulty":"Beginner","description":"Plotting","website":"https://matplotlib.org"},
+  {"tool_name":"Seaborn","genre":"Data Visualization","difficulty":"Intermediate","description":"Statistical plots","website":"https://seaborn.pydata.org"},
+
+  {"tool_name":"Scikit-learn","genre":"Machine Learning","difficulty":"Beginner","description":"ML library","website":"https://scikit-learn.org"},
+  {"tool_name":"TensorFlow","genre":"Machine Learning","difficulty":"Advanced","description":"ML framework","website":"https://tensorflow.org"},
+
+  {"tool_name":"PyTorch","genre":"Deep Learning","difficulty":"Intermediate","description":"DL framework","website":"https://pytorch.org"},
+  {"tool_name":"Keras","genre":"Deep Learning","difficulty":"Beginner","description":"DL API","website":"https://keras.io"},
+
+  {"tool_name":"OpenCV","genre":"Computer Vision","difficulty":"Intermediate","description":"Vision library","website":"https://opencv.org"},
+  {"tool_name":"MediaPipe","genre":"Computer Vision","difficulty":"Advanced","description":"Vision pipelines","website":"https://mediapipe.dev"},
+
+  {"tool_name":"NLTK","genre":"Natural Language Processing","difficulty":"Beginner","description":"NLP toolkit","website":"https://nltk.org"},
+  {"tool_name":"spaCy","genre":"Natural Language Processing","difficulty":"Advanced","description":"NLP library","website":"https://spacy.io"},
+
+  {"tool_name":"Docker","genre":"DevOps","difficulty":"Beginner","description":"Containers","website":"https://docker.com"},
+  {"tool_name":"Kubernetes","genre":"DevOps","difficulty":"Advanced","description":"Orchestration","website":"https://kubernetes.io"},
+
+  {"tool_name":"Ansible","genre":"Automation","difficulty":"Beginner","description":"Automation tool","website":"https://ansible.com"},
+  {"tool_name":"Terraform","genre":"Automation","difficulty":"Advanced","description":"Infra tool","website":"https://terraform.io"},
+
+  {"tool_name":"Nmap","genre":"Cybersecurity","difficulty":"Beginner","description":"Scanner","website":"https://nmap.org"},
+  {"tool_name":"Wireshark","genre":"Cybersecurity","difficulty":"Advanced","description":"Analyzer","website":"https://wireshark.org"},
+
+  {"tool_name":"Metasploit","genre":"Penetration Testing","difficulty":"Intermediate","description":"Security testing","website":"https://metasploit.com"},
+  {"tool_name":"Burp Suite OSS","genre":"Penetration Testing","difficulty":"Advanced","description":"Web testing","website":"https://portswigger.net"},
+
+  {"tool_name":"Godot","genre":"Game Development","difficulty":"Beginner","description":"Game engine","website":"https://godotengine.org"},
+  {"tool_name":"Unity OSS","genre":"Game Development","difficulty":"Intermediate","description":"Game dev","website":"https://unity.com"},
+
+  {"tool_name":"Blender","genre":"3D Modeling","difficulty":"Intermediate","description":"3D software","website":"https://blender.org"},
+  {"tool_name":"FreeCAD","genre":"3D Modeling","difficulty":"Advanced","description":"CAD tool","website":"https://freecad.org"},
+
+  {"tool_name":"Firefox","genre":"Web Browser","difficulty":"Beginner","description":"Browser","website":"https://mozilla.org"},
+  {"tool_name":"Brave OSS","genre":"Web Browser","difficulty":"Intermediate","description":"Privacy browser","website":"https://brave.com"},
+
+  {"tool_name":"Tor Browser","genre":"Privacy","difficulty":"Intermediate","description":"Anonymous browsing","website":"https://torproject.org"},
+  {"tool_name":"Tails OS","genre":"Privacy","difficulty":"Advanced","description":"Secure OS","website":"https://tails.net"},
+
+  {"tool_name":"Nextcloud","genre":"Cloud Storage","difficulty":"Beginner","description":"Cloud system","website":"https://nextcloud.com"},
+  {"tool_name":"OwnCloud","genre":"Cloud Storage","difficulty":"Intermediate","description":"File sharing","website":"https://owncloud.com"},
+
+  {"tool_name":"VirtualBox","genre":"Virtualization","difficulty":"Beginner","description":"VM tool","website":"https://virtualbox.org"},
+  {"tool_name":"KVM","genre":"Virtualization","difficulty":"Advanced","description":"Linux VM","website":"https://linux-kvm.org"},
+
+  {"tool_name":"Arduino IDE","genre":"Embedded Systems","difficulty":"Beginner","description":"Microcontroller IDE","website":"https://arduino.cc"},
+  {"tool_name":"PlatformIO","genre":"Embedded Systems","difficulty":"Advanced","description":"Embedded dev","website":"https://platformio.org"},
+
+  {"tool_name":"Home Assistant","genre":"IoT","difficulty":"Intermediate","description":"Smart home","website":"https://home-assistant.io"},
+  {"tool_name":"OpenHAB","genre":"IoT","difficulty":"Advanced","description":"IoT platform","website":"https://openhab.org"}
+]
